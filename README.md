@@ -1,6 +1,6 @@
 # m6-hw9-mcleod-kenyada
 ## Weather Widget
-This assignment was challenging, but worthwhile. The biggest challeng for me was realizing that I did not need to wrap the input fields into a form tag. Once removed, things got much better. 
+This assignment was challenging, but worthwhile. The biggest challenge for me was realizing that I did not need to wrap the input fields into a form tag. Once removed, things got much better. I would still like a better understanding of fetch and APIs in general, so I will be spending some time looking into the topic. 
 ## Helpful Resources
 [CSS Gradients](https://www.w3schools.com/css/css3_gradients.asp) 
 
