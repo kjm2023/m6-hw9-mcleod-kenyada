@@ -1,0 +1,64 @@
+/* Reset Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Body Styles */
+
+body {
+    background-image: linear-gradient(to top, #bcc0f0 0%, blue 100%);
+    background-repeat: no-repeat;
+    background-position: cover;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 100vh;
+}
+
+/* Main Styles */
+
+main {
+    align-items: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-self: center;
+    padding: 5%;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 4rem;
+    padding: 5% 2%;
+}
+
+#location-name,
+#search-button {
+    padding: 2%;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+form #location-name {
+    flex-basis: 70%;
+}
+
+form #search-button {
+    flex-basis: 20%;
+}
+
+/* Resources 
+
+https://www.w3schools.com/css/css3_gradients.asp - CSS Gradients
+
+*/
+
