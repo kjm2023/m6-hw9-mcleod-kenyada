@@ -21,8 +21,9 @@ body {
 /* Main Styles */
 
 main {
+    max-width: 600px;
     align-items: center;
-    width: 50%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -30,35 +31,59 @@ main {
     padding: 5%;
 }
 
-h1 {
+h1, h2, h3 {
     color: #FFF;
     font-size: 4rem;
     padding: 5% 2%;
+    width: 100%;
+    text-align: center;
 }
+
+#content {
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-self: center;
+}
+
+.input-container #location-name {
+    flex-basis: 70%;
+}
+
+.input-container #search-button {
+    flex-basis: 20%;
+}
+
 
 #location-name,
 #search-button {
     padding: 2%;
 }
 
-form {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-}
-
-form #location-name {
-    flex-basis: 70%;
-}
-
-form #search-button {
-    flex-basis: 20%;
-}
 
 /* Resources 
 
 https://www.w3schools.com/css/css3_gradients.asp - CSS Gradients
+
+https://www.youtube.com/watch?v=f__x1VofV2Q - Build a Weather App with JavaScript in 6 Minutes
+
+https://stackoverflow.com/questions/44177417/how-to-display-openweathermap-weather-icon - How to display OpenWeatherApp weather icon
+
+https://www.youtube.com/watch?v=GXrDEA3SIOQ - JavaScript Weather Map tutorial using OpenWeatherMap API for beginners
 
 */
 
